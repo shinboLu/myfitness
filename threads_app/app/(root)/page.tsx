@@ -1,12 +1,10 @@
 import React from 'react'
 
-function page() {
+export default function Home() {
   return (
     <div>
-      <h1>Thread</h1>
+      <h1 className='head-text text-left'>Home</h1>
     </div>
 
   )
 }
-
-export default page
